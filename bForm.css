@@ -1,0 +1,76 @@
+* {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #242425;
+}
+.bForm__ePadding {
+  width: 100%;
+  height: 100%;
+}
+.bForm__bContainer {
+  margin: auto auto;
+  width: 500px;
+  text-align: center;
+  padding: 20px;
+}
+.bForm__eLeftColumn {
+  width: 300px;
+  height: 100%;
+  float: left;
+  background-color: red;
+  padding: 10px;
+}
+.bForm__eRightColumn {
+  width: 170px;
+  min-height: 70px;
+  height: 100%;
+  float: right;
+  background-color: yellow;
+}
+.bForm__bHeader{
+  color: #CCCCCC;
+  text-align: center;
+}
+.bForm__bHeader__mMargined {
+  margin-top: 10px;
+}
+.bForm__bLabel {
+  float: left;
+  width: 60px;
+  font-size: 20px;
+  font-weight: none;
+  color: #CCCCCC;
+  padding-top: 10px;
+}
+.bForm__bLabel__mCheck {
+  width: 60px;
+  font-size: 20px;
+  font-weight: none;
+  color: #CCCCCC;
+  padding-top: 10px;
+}
+.bForm__bInput {
+  height: 2em;
+  font-size: 20px; 
+  width: 200px;
+}
+.bForm__bInputContainer {
+  margin: 10px 0 10px 0;
+}
+.bForm__bSubmit {
+  border-style: none;
+  background-color: #5ADB19;
+  color: white;
+  font-size: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.bForm__bSelect {
+  border-style: none;
+  color: #CCCCCC;
+  background-color: #666666;
+  font-size: 20px;
+}
